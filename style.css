@@ -70,9 +70,11 @@ h2 {
 .menu ul img {
     display: none;
 }
+
 main {
     width: 100%;
 }
+
 /* banner styles */
 
 .banner {
@@ -126,6 +128,7 @@ input {
     padding: 16px;
     margin: 24px;
 }
+
 .banner-form>button {
     background-color: var(--special-color);
     color: #FFF;
@@ -135,6 +138,38 @@ input {
     text-align: center;
     align-items: center;
     gap: 5px;
+}
+
+/* popular tour section styles */
+.popular-tour {
+    display: flex;
+    gap: 70px;
+    max-width: 1440px;
+    height: 700px;
+    margin: 130px;
+    padding-bottom: 25px;
+}
+
+.popular-tour-content {
+    color: var(--secondary-description-color)
+}
+
+.popular-tour-content li {
+    padding-bottom: 25px;
+}
+
+button {
+    background-color: var(--special-color);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 800;
+    width: 174px;
+    height: 52px;
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-style: none;
+    text-align: center;
 }
 
 
@@ -172,7 +207,7 @@ input {
         padding: 5px;
         width: 90%;
         align-items: center;
-    
+
 
     }
 
@@ -188,6 +223,14 @@ input {
         height: 52px;
         margin: 10px;
         padding: 10px;
-
     }
+    .popular-tour {
+        flex-direction: column;
+        margin: 10px;
+        width: 100%;
+}
+.popular-tour>div img{
+width: 100%;
+margin: 5px;
+}
 }
