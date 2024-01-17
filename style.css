@@ -128,8 +128,8 @@ h1 {
     color: rgba(19, 19, 24, 0.50);
 }
 
-input {
-    width: 170px;
+.banner-form input {
+    width: 140px;
     padding: 16px;
     margin: 24px;
 }
@@ -273,8 +273,6 @@ button {
     padding: 50px;
 }
 
-.newsletter-input {}
-
 .newsletter-input input {
     background-color: rgba(19, 19, 24, 0.05);
     width: 80%;
@@ -319,6 +317,40 @@ footer {
     justify-content: center;
 }
 
+.travel-blog {
+    width: 80%;
+    margin: 130px;
+}
+.travel-blog .box {
+    background-color:  rgba(251, 181, 99, 0.05);
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #FF5400;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-content: center;
+}
+.travel-blog .box h3 {
+    color: #9f877b;
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 70px;
+}
+h3 a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF5400;
+}
+
+
+
+
+
 /* responsive styles for mobile */
 
 @media screen and (max-width:600px) {
@@ -337,6 +369,7 @@ footer {
         width: 100%;
         height: fit-content;
         margin: auto;
+        padding-left: 20px;
     }
 
     .banner-content {
@@ -367,6 +400,12 @@ footer {
         height: 52px;
         margin: 10px;
         padding: 10px;
+    }
+    .banner-form input {
+        width: 48%;
+        padding-left: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     /* body related styles */
@@ -456,5 +495,20 @@ footer {
         width: 100%;
         padding: 20px;
         margin-top: 500px;
+    }
+    .travel-blog {
+        width: 100%;
+        margin: 10px;
+    }
+    .travel-blog .box img {
+        height: 400px;
+    }
+    .travel-blog .box {
+        width: 100%;
+        height: 700px;
+        flex-direction: column;
+    }
+    .travel-blog .box h3 {
+        font-size: 20px;
     }
 }
