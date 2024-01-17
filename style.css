@@ -111,7 +111,6 @@ h1 {
     display: flex;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    border-style: none;
     align-items: center;
     align-content: center;
     width: 70%;
@@ -132,6 +131,7 @@ h1 {
     width: 140px;
     padding: 16px;
     margin: 24px;
+    border-color: #FFF;
 }
 
 .banner-form>button {
@@ -279,6 +279,8 @@ button {
     border: 1px solid rgba(19, 19, 24, 0.05);
     border-radius: 8px;
     margin-bottom: 16px;
+    padding: 16px 20px;
+
 }
 
 .newsletter-input button {
