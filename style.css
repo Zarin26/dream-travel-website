@@ -15,7 +15,9 @@
     --overlap-text-color: #FFF;
     --font-size: 16px
 }
-
+.description {
+    color: var(--secondary-description-color);
+}
 /* header styles */
 nav {
     display: flex;
@@ -199,10 +201,60 @@ button {
 
 .row img {
     width: 100%;
+    
 
 }
 
+/* why-choose-us section styles */
+.why-choose-us {
+    max-width: 1440px;
+    margin: 130px;
 
+}
+
+.why-choose-us-description {
+    width: 650px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 45px;
+    text-align: center;
+    align-content: center;
+}
+.text-row {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.hotel {
+    width: 550px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.map {
+    width: 573px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price-tag {
+    margin: auto;
+    width: 50%;
+    height: 250px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    
+    
+}
 
 
 
@@ -258,32 +310,55 @@ button {
         padding: 10px;
     }
 
-/* body related styles */
-.popular-tour {
+    /* body related styles */
+    .popular-tour {
         flex-direction: column;
         margin: 10px;
         width: 100%;
     }
 
-.popular-tour>div img {
+    .popular-tour>div img {
         width: 100%;
         margin: 5px;
     }
+
     .destination {
         margin-top: 600px;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .destination p{
+
+    .destination p {
         align-items: center;
         width: 90%;
         margin: 10px;
     }
-.row {
-    flex-direction: column;
-}
-.row img {
-    width: 100%;
-}
 
+    .row {
+        flex-direction: column;
+    }
+
+    .row img {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* why choose us section styles */
+   
+   .why-choose-us {
+    width: 100%;
+    margin: auto;
+}
+   .why-choose-us-description {
+    width: 90%;
+    margin-left: auto;
+    align-items: center;
+   }
+    .text-row {
+        flex-direction: column;
+    }
+.hotel , .map , .price-tag {
+    width: 90%;
+    margin-left: 10px;
+}
 }
