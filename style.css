@@ -367,7 +367,7 @@ a:hover {
 
     .banner {
         width: 100%;
-        height: fit-content;
+        height: 500px;
         margin: auto;
         padding-left: 20px;
     }
